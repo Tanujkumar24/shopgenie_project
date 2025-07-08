@@ -14,7 +14,8 @@
 - ⚙️ Clean, modular Python code ready for production  
 
 ---
-
+##Diagram
+  ![work flow diagram](https://github.com/Tanujkumar24/shopgenie_project/blob/main/diagram.png)
 ## 🖼️ Screenshots
 
 > 📌 Replace these image paths with your own screenshots (put images in an `images/` folder in your repo).
