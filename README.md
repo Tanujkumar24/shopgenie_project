@@ -6,18 +6,18 @@
 
 ## 🚀 Features
 
-- 🔍 Real-time web product search
-- 🧠 AI-based product comparison using LangChain + Groq
-- 📧 Auto-email report delivery with specs, ratings & reviews
-- 📺 YouTube video suggestions using YouTube Data API
-- 🖥️ Interactive Streamlit frontend
-- ⚙️ Clean, modular Python code ready for production
+- 🔍 Real-time web product search  
+- 🧠 AI-based product comparison using LangChain + Groq  
+- 📧 Auto-email report delivery with specs, ratings & reviews  
+- 📺 YouTube video suggestions using YouTube Data API  
+- 🖥️ Interactive Streamlit frontend  
+- ⚙️ Clean, modular Python code ready for production  
 
 ---
 
 ## 🖼️ Screenshots
 
-> 📌 Replace these image paths with your own screenshots (in an `images/` folder).
+> 📌 Replace these image paths with your own screenshots (put images in an `images/` folder in your repo).
 
 ### 1️⃣ Streamlit - Product Query
 ![Search Query](images/streamlit_query.png)
@@ -35,7 +35,7 @@
 
 ## 📁 Project Structure
 
-```text
+```
 shopgenie/
 │
 ├── app.py                      # CLI interface
@@ -55,8 +55,90 @@ shopgenie/
 ├── .gitignore                  # Ignore compiled & env files
 ├── requirements.txt            # Project dependencies
 └── README.md
+```
+
+---
+
 ## 🛠️ Setup Instructions
-###1. Clone the repository
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/yourusername/shopgenie.git
 cd shopgenie
+```
 
+### 2. Create a virtual environment
+
+```bash
+python -m venv tenv
+# On Windows
+tenv\Scripts\activate
+# On Mac/Linux
+source tenv/bin/activate
+```
+
+### 3. Install the dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Set up your `.env` file
+
+Create a `.env` file in the root directory and add the following:
+
+```
+GROQ_API_KEY=your_groq_api_key
+TAVILY_API_KEY=your_tavily_api_key
+YOUTUBE_API_KEY=your_youtube_api_key
+SMTP_USER=your_email@gmail.com
+SMTP_PASS=your_app_password
+```
+
+> ⚠️ Use an app password if you're using Gmail (required for SMTP login).
+
+### 5. Run the CLI version
+
+```bash
+python app.py
+```
+
+### 6. Run the Streamlit frontend
+
+```bash
+streamlit run frontend/streamlit_app.py
+```
+
+---
+
+## ⚙️ Tech Stack
+
+- **Python 3.10+**
+- [LangChain](https://www.langchain.com/)
+- [Groq](https://groq.com/)
+- [Tavily](https://www.tavily.com/)
+- [YouTube Data API](https://developers.google.com/youtube/v3)
+- [Streamlit](https://streamlit.io/)
+- [Pydantic](https://docs.pydantic.dev/)
+
+---
+
+## 💡 Future Enhancements
+
+- Integration with Amazon/Flipkart APIs  
+- Voice assistant for product query input  
+- User authentication and history tracking  
+- PDF export for product reports  
+
+---
+
+## 👨‍💻 Author
+
+**Tanujkumar Mangalapally**  
+📧 tanuj.mangalapally@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/tanujkumar24)
+
+---
+
+## ⭐ If you like it, give it a star and share!
