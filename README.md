@@ -23,13 +23,15 @@
 ![Search Query](https://github.com/Tanujkumar24/shopgenie_project/blob/main/shop_result1.png)
 
 ### 2️⃣ Product Comparison Results
-![Comparison Output](images/comparison_output.png)
+![Comparison Output](https://github.com/Tanujkumar24/shopgenie_project/blob/main/shop_result2.png)
 
 ### 3️⃣ Email Sent Confirmation
-![Email Sent](images/email_sent.png)
+![Email Sent](https://github.com/Tanujkumar24/shopgenie_project/blob/main/shop_result4.png
+)
+![Email Sent](https://github.com/Tanujkumar24/shopgenie_project/blob/main/shop_result5.png)
 
 ### 4️⃣ YouTube Suggestions
-![YouTube](images/youtube_suggestions.png)
+![YouTube](https://github.com/Tanujkumar24/shopgenie_project/blob/main/shop_result3.png)
 
 ---
 
