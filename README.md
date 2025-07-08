@@ -20,7 +20,7 @@
 > 📌 Replace these image paths with your own screenshots (put images in an `images/` folder in your repo).
 
 ### 1️⃣ Streamlit - Product Query
-![Search Query](images/streamlit_query.png)
+![Search Query](https://github.com/Tanujkumar24/shopgenie_project/blob/main/shop_result1.png)
 
 ### 2️⃣ Product Comparison Results
 ![Comparison Output](images/comparison_output.png)
